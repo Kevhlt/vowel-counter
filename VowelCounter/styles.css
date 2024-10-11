@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.input-feld {
+    text-align: center;
+}
+
+#input {
+    margin-bottom: 2rem;
+    width: 60%;
+    border: 2px solid black;
+    height: 30px;
+}
+
+button {
+    width: 10%;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+.satz {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: red;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
